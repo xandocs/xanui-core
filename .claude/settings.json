@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(chromium-cli --help)",
+      "Bash(node -e \"console.log\\(require.resolve\\('playwright'\\)\\)\")",
+      "Bash(npm ls *)",
+      "Bash(npx --no-install playwright --version)",
+      "Bash(curl -s http://localhost:3000/)",
+      "Bash(curl -s http://localhost:3000/docs)",
+      "Bash(curl -s http://localhost:3000/docs/app-root)",
+      "Bash(curl -s http://localhost:3000/docs/tag)",
+      "Bash(curl -s http://localhost:3000/docs/app-root -o /tmp/approot.html)",
+      "Bash(python3 -c ' *)",
+      "Read(//tmp/**)"
+    ]
+  }
+}
